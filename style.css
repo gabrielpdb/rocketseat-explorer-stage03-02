@@ -19,8 +19,14 @@ body {
   font-family: 'Epilogue', sans-serif;
 }
 
+main {
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 4rem;
+  font-weight: 800;
   line-height: 4.8rem;
   color: #090039;
   margin-bottom: 1.5rem;
@@ -30,7 +36,7 @@ main p:first-child {
   font-weight: 400;
   line-height: 3.2rem;
 
-  letter-spacing: 0.3rem;
+  letter-spacing: 3px;
   text-transform: uppercase;
 
   color: #7158ef;
@@ -54,4 +60,26 @@ a:hover {
 
 ul {
   margin-top: 7.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+ul li {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #090039;
+
+  max-width: 25.7rem;
+  display: flex;
+  gap: 3.8rem;
+}
+
+ul li span {
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8rem;
+  letter-spacing: -2px;
+  min-width: 4.6rem;
 }
